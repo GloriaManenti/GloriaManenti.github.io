@@ -16,10 +16,11 @@ var imageCaption= $(this).children("img").attr("alt");
 $image.attr("src",imageLocation);
 $caption.text(imageCaption);
 $overlay.show();
-$("ul").hide();
+
+/*$("ul").hide();
 $("h3").hide();
 $("footer").hide();
-$("p").hide();
+$("p").hide();*/
 
 });
 	//show the overaly
@@ -32,9 +33,9 @@ $("p").hide();
 // when overlay is clicked 
 $overlay.click(function(){
 $(this).hide();
-$("ul").show();
+/*$("ul").show();
 $("h3").show();
 $("footer").show();
-$("p").show();
+$("p").show();*/
 })
  	//hide the overaly
