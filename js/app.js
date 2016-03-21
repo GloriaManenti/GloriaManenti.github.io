@@ -1,7 +1,6 @@
 
 // Capture the click event on a link to ann 
 
-<img src= "images/europe1">
 var $overlay= $('<div id="overlay"></div>');
 
 var $image = $("<img>");
